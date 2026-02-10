@@ -19,14 +19,14 @@ But in practice, people struggle with:
 
 ## Gradient Descent Is an Iterative Process
 
-Gradient descent does not “solve” the problem.
+Gradient descent does not "solve" the problem.
 
-It:
-- takes small steps
-- reacts to local information
-- improves gradually over time
+**It:**
+- Takes small steps
+- Reacts to local information
+- Improves gradually over time
 
-Learning is a **process**, not a calculation.
+> Learning is a **process**, not a calculation.
 
 ---
 
@@ -50,16 +50,12 @@ Each pattern tells a story.
 The learning rate controls:
 > how big each update step is
 
-Too small:
-- training is very slow
-- may appear stuck
+| **Learning Rate** | **Consequences** |
+|:------------------|:-----------------|
+| **Too small** | Training is very slow<br>May appear stuck |
+| **Too large** | Loss oscillates<br>Loss explodes<br>Training becomes unstable |
 
-Too large:
-- loss oscillates
-- loss explodes
-- training becomes unstable
-
-There is no universal best value.
+> There is no universal best value.
 
 ---
 
@@ -178,10 +174,12 @@ not theory alone.
 
 ---
 
-## What’s Next
+---
 
-**Next video:**  
-### *Logistic Regression: Classification as Geometry*
+## What's Next
 
-We’ll move from predicting numbers
+> **Next video:**  
+> ### *Logistic Regression: Classification as Geometry*
+
+We'll move from predicting numbers  
 to predicting categories.

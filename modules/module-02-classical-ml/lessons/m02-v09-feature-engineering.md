@@ -189,10 +189,12 @@ This is why:
 
 ---
 
-## What’s Next
+---
 
-**Next video:**  
-### *Model Evaluation: Metrics That Actually Matter*
+## What's Next
 
-We’ll learn how to evaluate models
+> **Next video:**  
+> ### *Model Evaluation: Metrics That Actually Matter*
+
+We'll learn how to evaluate models  
 without fooling ourselves.

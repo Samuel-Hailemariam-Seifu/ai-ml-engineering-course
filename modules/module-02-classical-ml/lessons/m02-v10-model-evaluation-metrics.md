@@ -44,15 +44,16 @@ Training metrics are **internal checks**, not success signals.
 ## Validation and Test Sets
 
 To evaluate properly, we need:
-- data the model has not seen
+- Data the model has not seen
 
-Typical split:
-- training set → learning
-- validation set → tuning
-- test set → final evaluation
+| **Dataset** | **Purpose** |
+|:------------|:------------|
+| **Training set** | Learning |
+| **Validation set** | Tuning |
+| **Test set** | Final evaluation |
 
-Never tune on the test set.
-Once it’s used, it’s contaminated.
+> Never tune on the test set.  
+> Once it's used, it's contaminated.
 
 ---
 
@@ -166,16 +167,15 @@ But it is not magic.
 
 ## The Most Dangerous Mistakes
 
-Common evaluation traps:
+**Common evaluation traps:**
+- Leakage between train and test
+- Tuning on test data
+- Reporting only best results
+- Ignoring confidence intervals
+- Optimizing the wrong metric
 
-- leakage between train and test
-- tuning on test data
-- reporting only best results
-- ignoring confidence intervals
-- optimizing the wrong metric
-
-These produce impressive numbers —
-and broken systems.
+> These produce impressive numbers —  
+> and broken systems.
 
 ---
 
@@ -219,10 +219,12 @@ This foundation is **non-negotiable**.
 
 ---
 
-## What’s Next
+---
 
-**Next module:**  
-### *Model Training in Practice (Scikit-Learn Workflow)*
+## What's Next
 
-We’ll move from concepts
+> **Next module:**  
+> ### *Model Training in Practice (Scikit-Learn Workflow)*
+
+We'll move from concepts  
 to clean, professional implementations.

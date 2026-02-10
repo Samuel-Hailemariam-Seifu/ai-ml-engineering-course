@@ -37,19 +37,14 @@ Different models draw **different shapes**.
 ## Linear Models: Simple Boundaries
 
 Linear models create:
-- straight lines (2D)
-- planes (3D)
-- hyperplanes (higher dimensions)
+- Straight lines (2D)
+- Planes (3D)
+- Hyperplanes (higher dimensions)
 
-Advantages:
-- easy to understand
-- stable
-- fast
-- generalize well
-
-Limitations:
-- cannot bend
-- cannot capture complex patterns
+| **Aspect** | **Characteristics** |
+|:-----------|:--------------------|
+| **Advantages** | Easy to understand<br>Stable<br>Fast<br>Generalize well |
+| **Limitations** | Cannot bend<br>Cannot capture complex patterns |
 
 ---
 
@@ -73,17 +68,12 @@ But it comes at a cost.
 **Model capacity** describes:
 > how complex a function a model can represent
 
-Low capacity:
-- simple boundaries
-- limited flexibility
-- risk of underfitting
+| **Capacity Level** | **Characteristics** | **Risk** |
+|:-------------------|:--------------------|:---------|
+| **Low capacity** | Simple boundaries<br>Limited flexibility | Risk of underfitting |
+| **High capacity** | Complex boundaries<br>Many degrees of freedom | Risk of overfitting |
 
-High capacity:
-- complex boundaries
-- many degrees of freedom
-- risk of overfitting
-
-Capacity is not good or bad by itself.
+> Capacity is not good or bad by itself.
 
 ---
 
@@ -171,11 +161,13 @@ This lens unifies everything.
 
 ---
 
-## What’s Next
+---
 
-**Next video:**  
-### *k-Nearest Neighbors (k-NN) and Distance-Based Learning*
+## What's Next
 
-We’ll explore a model
-that learns almost nothing —
+> **Next video:**  
+> ### *k-Nearest Neighbors (k-NN) and Distance-Based Learning*
+
+We'll explore a model  
+that learns almost nothing —  
 and yet can be very powerful.

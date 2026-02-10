@@ -172,10 +172,12 @@ fundamentally different ways.
 
 ---
 
-## What’s Next
+---
 
-**Next video:**  
-### *Ensembles: Why Many Weak Models Beat One Strong Model*
+## What's Next
 
-We’ll see how trees become powerful
+> **Next video:**  
+> ### *Ensembles: Why Many Weak Models Beat One Strong Model*
+
+We'll see how trees become powerful  
 when they work together.

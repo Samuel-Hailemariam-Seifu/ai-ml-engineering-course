@@ -22,20 +22,18 @@ In reality, logistic regression is about:
 
 ## From Regression to Classification
 
-Linear regression predicts:
-- a continuous number
+| **Task Type** | **Output** |
+|:--------------|:-----------|
+| **Linear regression** | A continuous number |
+| **Classification** | A category<br>A yes / no decision |
 
-Classification predicts:
-- a category
-- a yes / no decision
+**But the learning loop is the same:**
+- Model
+- Loss
+- Optimization
+- Generalization
 
-But the learning loop is the same:
-- model
-- loss
-- optimization
-- generalization
-
-Only the interpretation changes.
+> Only the interpretation changes.
 
 ---
 
@@ -167,10 +165,12 @@ are judged against it.
 
 ---
 
-## What’s Next
+---
 
-**Next video:**  
-### *Decision Boundaries and Model Capacity*
+## What's Next
 
-We’ll compare how different models
+> **Next video:**  
+> ### *Decision Boundaries and Model Capacity*
+
+We'll compare how different models  
 carve up space differently.

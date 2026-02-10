@@ -148,17 +148,12 @@ Power comes with responsibility.
 
 ## Bagging vs Boosting (Mental Model)
 
-- Bagging:
-  - reduces variance
-  - stabilizes models
-  - parallel training
+| **Approach** | **Effect** | **Training** |
+|:-------------|:-----------|:-------------|
+| **Bagging** | Reduces variance<br>Stabilizes models | Parallel training |
+| **Boosting** | Reduces bias<br>Focuses on hard cases | Sequential training |
 
-- Boosting:
-  - reduces bias
-  - focuses on hard cases
-  - sequential training
-
-Different tools for different problems.
+> Different tools for different problems.
 
 ---
 
@@ -193,11 +188,13 @@ They are still extremely competitive.
 
 ---
 
-## What’s Next
+---
 
-**Next video:**  
-### *Bias–Variance Trade-off*
+## What's Next
 
-We’ll explain why:
-- some errors come from simplicity
-- others come from complexity
+> **Next video:**  
+> ### *Bias–Variance Trade-off*
+
+We'll explain why:
+- Some errors come from simplicity
+- Others come from complexity

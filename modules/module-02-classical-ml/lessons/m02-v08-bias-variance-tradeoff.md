@@ -33,17 +33,17 @@ is key to debugging models.
 
 **Bias** comes from overly simple assumptions.
 
-High bias models:
-- are too restrictive
-- miss important patterns
-- underfit the data
+**High bias models:**
+- Are too restrictive
+- Miss important patterns
+- Underfit the data
 
-Symptoms:
-- poor training performance
-- poor validation performance
+**Symptoms:**
+- Poor training performance
+- Poor validation performance
 
-Example:
-- fitting a straight line to curved data
+**Example:**
+- Fitting a straight line to curved data
 
 ---
 
@@ -51,17 +51,17 @@ Example:
 
 **Variance** comes from too much flexibility.
 
-High variance models:
-- fit noise in the data
-- change a lot with small data variations
-- overfit the training set
+**High variance models:**
+- Fit noise in the data
+- Change a lot with small data variations
+- Overfit the training set
 
-Symptoms:
-- very good training performance
-- poor validation performance
+**Symptoms:**
+- Very good training performance
+- Poor validation performance
 
-Example:
-- very deep decision trees
+**Example:**
+- Very deep decision trees
 
 ---
 
@@ -137,13 +137,15 @@ navigate the trade-off.
 
 ## Diagnosing Bias vs Variance
 
-Ask these questions:
+**Ask these questions:**
 
-- Is training error high? → likely bias
-- Is training low but validation high? → likely variance
-- Are both high? → data or representation problem
+| **Pattern** | **Diagnosis** |
+|:------------|:--------------|
+| Training error high | Likely bias |
+| Training low but validation high | Likely variance |
+| Both high | Data or representation problem |
 
-Diagnosis comes before fixes.
+> Diagnosis comes before fixes.
 
 ---
 
@@ -176,10 +178,12 @@ It’s one of the most useful mental models in ML.
 
 ---
 
-## What’s Next
+---
 
-**Next video:**  
-### *Feature Engineering: Where Performance Really Comes From*
+## What's Next
 
-We’ll show why
+> **Next video:**  
+> ### *Feature Engineering: Where Performance Really Comes From*
+
+We'll show why  
 features often matter more than models.

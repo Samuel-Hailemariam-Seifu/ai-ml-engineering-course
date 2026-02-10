@@ -184,12 +184,14 @@ linear regression stacked many times.
 
 ---
 
-## What’s Next
+---
 
-**Next video:**  
-### *Gradient Descent in Practice*
+## What's Next
 
-We’ll look at:
-- convergence behavior
-- learning rate effects
-- real optimization dynamics
+> **Next video:**  
+> ### *Gradient Descent in Practice*
+
+We'll look at:
+- Convergence behavior
+- Learning rate effects
+- Real optimization dynamics

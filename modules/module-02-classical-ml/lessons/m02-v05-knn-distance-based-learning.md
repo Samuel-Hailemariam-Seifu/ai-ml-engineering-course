@@ -55,17 +55,12 @@ as its distance metric.
 
 The parameter **k** controls complexity.
 
-Small k:
-- very flexible
-- sensitive to noise
-- jagged decision boundaries
+| **k Value** | **Characteristics** | **Trade-off** |
+|:------------|:--------------------|:--------------|
+| **Small k** | Very flexible<br>Sensitive to noise<br>Jagged decision boundaries | Low bias, high variance |
+| **Large k** | Smoother boundaries | More bias, less variance |
 
-Large k:
-- smoother boundaries
-- more bias
-- less variance
-
-k is a capacity control knob.
+> k is a capacity control knob.
 
 ---
 
@@ -163,10 +158,12 @@ Not all models learn by optimization.
 
 ---
 
-## What’s Next
+---
 
-**Next video:**  
-### *Decision Trees: Learning Rules from Data*
+## What's Next
 
-We’ll move from geometry
+> **Next video:**  
+> ### *Decision Trees: Learning Rules from Data*
+
+We'll move from geometry  
 to rule-based learning.
